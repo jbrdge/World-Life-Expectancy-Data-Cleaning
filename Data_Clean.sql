@@ -141,3 +141,18 @@ JOIN world_life_expectancy t3
 SET t1.`Life expectancy` = ROUND((t2.`Life expectancy` + t3.`Life expectancy`) /2,1)
 WHERE t1.`Life expectancy` = ''
 ;
+
+
+# Now we can do some analysis
+SELECT 
+	Country,
+	MIN(`Life expectancy`),
+	MAX(`Life expectancy`),
+    ROUND(MAX(`Life expectancy`) - MIN(`Life expectancy`),1) AS Life_Increase_15_Years
+FROM world_life_expectancy
+GROUP BY country
+HAVING MIN(`Life expectancy`) <> 0
+AND MAX(`Life expectancy`) <> 0
+ORDER BY Life_Increase_15_Years DESC
+;
+

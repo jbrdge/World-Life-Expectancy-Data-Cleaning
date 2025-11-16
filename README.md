@@ -3,11 +3,11 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 
 ## 1) The first process, removing duplicate rows, goes as follows:
 - Import data from CSV using table import wizard
-- Import a duplicate for transforming table
+- Import a duplicate for transforming table  
   <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/001.png">
 - Identify duplicate rows by first creating unique identifier column (no true duplicates because of row number)
 - Remove Duplicates
-<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/002.png">
+  
 
 ## 2) Second, we fill empty 'Status' rows
 - identify empty 'Status' rows

@@ -34,5 +34,5 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/009.png">
 
 
-## 5) We can observe who has had the greatest yearly average life expectancy
+## 5) We can observe who has had the yearly average life expectancy
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/010.png">

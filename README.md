@@ -6,3 +6,10 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 - Import a duplicate for transforming table
 - Identify duplicate rows by first creating unique identifier column (no true duplicates because of row number)
 - Remove Duplicates
+
+## 2) Second, we fill empty 'Status' rows
+- identify empty 'Status' rows
+- identify distinct status which are not empty
+- look at  a list of developing/developed countries
+- compare table against itself with self-join
+- use that knowledge to update the table

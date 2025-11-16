@@ -13,3 +13,6 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 - look at  a list of developing/developed countries
 - compare table against itself with self-join
 - use that knowledge to update the table
+
+## 3) Finally, we fill empty Life Expectancy rows
+- use average of previous and next

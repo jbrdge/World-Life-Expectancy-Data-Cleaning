@@ -26,3 +26,9 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 - use average of previous and next
   <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/007.png">
   <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/008.png">
+
+
+# Exploratory Data Analysis
+
+## 4) We can observe who has had the greatest change in life expectancy
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/009.png">

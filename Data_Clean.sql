@@ -144,6 +144,8 @@ WHERE t1.`Life expectancy` = ''
 
 
 # Now we can do some analysis
+
+# Determine greatest delta in 15 years
 SELECT 
 	Country,
 	MIN(`Life expectancy`),
@@ -155,4 +157,16 @@ HAVING MIN(`Life expectancy`) <> 0
 AND MAX(`Life expectancy`) <> 0
 ORDER BY Life_Increase_15_Years DESC
 ;
+
+# Determine greatest yearly averages
+SELECT
+	Year,
+	ROUND(AVG(`Life expectancy`),2)
+FROM world_life_expectancy
+WHERE `Life expectancy` <> 0
+AND `Life expectancy` <> 0
+GROUP BY Year
+ORDER BY Year
+;
+
 

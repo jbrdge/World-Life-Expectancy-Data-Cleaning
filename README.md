@@ -36,3 +36,13 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 
 ## 5) We can observe who has had the yearly average life expectancy
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/010.png">
+
+## 6) We can inspect the data to observe that Greater GDP correlates with Greater Life expectancy
+
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/011.png">
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/012.png">
+
+### You would use Tableau or Power BI and plug in this query to verify  
+I export this Query to CSV  
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/013.png">
+

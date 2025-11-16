@@ -17,8 +17,8 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 - look at  a list of developing/developed countries  
   <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/004.png">
 - compare table against itself with self-join  
-  <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/005.png">
-- use that knowledge to update the table  
+- use that knowledge to update the table
+  <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/005.png">  
   <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/006.png">
 
 

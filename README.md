@@ -6,13 +6,17 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 - Import a duplicate for transforming table
 - Identify duplicate rows by first creating unique identifier column (no true duplicates because of row number)
 - Remove Duplicates
+  
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/001.png">
 
 ## 2) Second, we fill empty 'Status' rows
 - identify empty 'Status' rows
+  <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/002.png">
 - identify distinct status which are not empty
 - look at  a list of developing/developed countries
 - compare table against itself with self-join
 - use that knowledge to update the table
+
 
 ## 3) Finally, we fill empty Life Expectancy rows
 - use average of previous and next

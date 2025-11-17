@@ -170,3 +170,25 @@ ORDER BY Year
 ;
 
 
+# We can inspect the data to observe that Greater GDP correlates with Greater Life expectancy
+SELECT
+	Country,
+	ROUND(AVG(`Life expectancy`),1) AS Life_Exp,
+    ROUND(AVG(GDP),1) AS GDP
+FROM world_life_expectancy
+GROUP BY Country
+HAVING Life_Exp > 0
+AND GDP > 0
+ORDER BY GDP ASC
+;
+
+
+# We can also group upper and lower GDPs and find an average life expectancy for them
+SELECT
+	SUM(CASE WHEN GDP >= 1150 THEN 1 ELSE 0 END) High_GDP_Count,
+	AVG(CASE WHEN GDP <= 1150 THEN `Life expectancy` ELSE NULL END) High_GDP_Life_Expectancy,
+	SUM(CASE WHEN GDP <= 1150 THEN 1 ELSE 0 END) Low_GDP_Count,
+	AVG(CASE WHEN GDP >= 1150 THEN `Life expectancy` ELSE NULL END) High_GDP_Life_Expectancy
+FROM lifeexpectancy.world_life_expectancy
+;
+

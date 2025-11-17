@@ -55,5 +55,7 @@ Use this Window Correlation Function
 We get a corrrelation of 0.6134, which means it's mostly a positive correlation, which matches our inspection.  
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/015.png">
 
+We estimate a median to inspect the mean Life Expectancy in Upper GDPs versus Lower GDPs
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/016.png">
 
 

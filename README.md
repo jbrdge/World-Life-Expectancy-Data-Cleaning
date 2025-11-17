@@ -52,7 +52,7 @@ Import data to Tableau
 Use this Window Correlation Function
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/014.png">
 
-We get a corrrelation of 0.6134, which means it's mostly a positive correlation, which matches our inspection.
+We get a corrrelation of 0.6134, which means it's mostly a positive correlation, which matches our inspection.  
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/015.png">
 
 

@@ -46,3 +46,14 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 I export this Query to CSV  
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/013.png">
 
+Import data to Tableau
+### [View in my Tableau Public page](https://public.tableau.com/app/profile/jacob.breckenridge/viz/WorldLifeExpectancyExploratoryDataAnalysis/Dashboard1?publish=yes)
+
+Use this Window Correlation Function
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/014.png">
+
+We get a corrrelation of 0.6134, which means it's mostly a positive correlation, which matches our inspection.
+<img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/015.png">
+
+
+

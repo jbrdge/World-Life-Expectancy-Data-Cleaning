@@ -47,7 +47,7 @@ This README represents my notes.
 I export this Query to CSV  
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/013.png">
 
-Import data to Tableau
+Sidequest: Import data to Tableau
 ### [View in my Tableau Public page](https://public.tableau.com/app/profile/jacob.breckenridge/viz/WorldLifeExpectancyExploratoryDataAnalysis/Dashboard1?publish=yes)
 
 Use this Window Correlation Function

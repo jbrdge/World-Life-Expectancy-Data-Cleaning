@@ -1,5 +1,6 @@
 # World Life Expectancy Data Cleaning Project
 This project is a data cleaning walkthrough example from analystbuilder.com
+This README represents my notes.
 
 ## 1) The first process, removing duplicate rows, goes as follows:
 - Import data from CSV using table import wizard
@@ -46,7 +47,7 @@ This project is a data cleaning walkthrough example from analystbuilder.com
 I export this Query to CSV  
 <img align="center" src="https://raw.githubusercontent.com/jbrdge/World-Life-Expectancy-Data-Cleaning/main/imgs/013.png">
 
-Import data to Tableau
+Sidequest: Import data to Tableau
 ### [View in my Tableau Public page](https://public.tableau.com/app/profile/jacob.breckenridge/viz/WorldLifeExpectancyExploratoryDataAnalysis/Dashboard1?publish=yes)
 
 Use this Window Correlation Function
